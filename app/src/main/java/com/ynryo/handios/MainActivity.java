@@ -18,6 +18,6 @@ public class MainActivity extends AppCompatActivity {
         handios = findViewById(R.id.handios);
         handios.getSettings().setJavaScriptEnabled(true);
         handios.setWebViewClient(new WebViewClient());
-        handios.loadUrl("http://handios.specstech.fr/");
+        handios.loadUrl("https://handios-app.specstech.fr/");
     }
 }
